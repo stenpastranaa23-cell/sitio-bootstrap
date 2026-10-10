@@ -31,12 +31,114 @@
     </div>
   </header>
 
-  <main class="container my-5">
-    <div class="row text-center g-4">
-      <div class="col-md-4"><i class="bi bi-geo-alt-fill fs-1 text-primary"></i><h4>Destinos únicos</h4><p>Desde el Caribe hasta las montañas del occidente.</p></div>
-      <div class="col-md-4"><i class="bi bi-cup-hot-fill fs-1 text-primary"></i><h4>Café y cultura</h4><p>Gastronomía, artesanías y tradiciones vivas.</p></div>
-      <div class="col-md-4"><i class="bi bi-tree-fill fs-1 text-primary"></i><h4>Naturaleza</h4><p>Parques nacionales y biodiversidad increíble.</p></div>
-    </div>
+  <main>
+    <!-- Caracteristicas -->
+    <section class="container my-5">
+      <div class="row text-center g-4">
+        <div class="col-md-4"><i class="bi bi-geo-alt-fill fs-1 text-primary"></i><h4>Destinos únicos</h4><p>Desde el Caribe hasta las montañas del occidente.</p></div>
+        <div class="col-md-4"><i class="bi bi-cup-hot-fill fs-1 text-primary"></i><h4>Café y cultura</h4><p>Gastronomía, artesanías y tradiciones vivas.</p></div>
+        <div class="col-md-4"><i class="bi bi-tree-fill fs-1 text-primary"></i><h4>Naturaleza</h4><p>Parques nacionales y biodiversidad increíble.</p></div>
+      </div>
+    </section>
+
+    <!-- Sobre nosotros -->
+    <section class="bg-light py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img src="https://images.unsplash.com/photo-1518638150340-f706e86654de?w=800" class="img-fluid rounded shadow" alt="Ruinas de Copán" />
+          </div>
+          <div class="col-lg-6">
+            <h2 class="mb-3">Un país por descubrir</h2>
+            <p>Honduras guarda la segunda barrera de coral más grande del mundo, ciudades mayas milenarias y bosques nublados donde habitan quetzales y guacamayas.</p>
+            <p>Te ayudamos a planear tu ruta: qué visitar, cuándo ir y cómo moverte, con recomendaciones de gente local.</p>
+            <a href="contacto.html" class="btn btn-primary">Planear mi viaje</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Estadisticas -->
+    <section class="bg-primary text-white py-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-6 col-md-3"><div class="display-5 fw-bold">18</div>departamentos</div>
+          <div class="col-6 col-md-3"><div class="display-5 fw-bold">700+</div>especies de aves</div>
+          <div class="col-6 col-md-3"><div class="display-5 fw-bold">2</div>sitios Patrimonio de la Humanidad</div>
+          <div class="col-6 col-md-3"><div class="display-5 fw-bold">800 km</div>de arrecife coralino</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Destacados -->
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Experiencias destacadas</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600" class="card-img-top" alt="Buceo" />
+            <div class="card-body"><span class="badge text-bg-info mb-2">Mar</span><h5 class="card-title">Buceo en Roatán</h5><p class="card-text">Sumérgete en aguas cristalinas con tortugas y peces tropicales.</p></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600" class="card-img-top" alt="Selva" />
+            <div class="card-body"><span class="badge text-bg-success mb-2">Aventura</span><h5 class="card-title">Selva de Pico Bonito</h5><p class="card-text">Senderismo, cascadas y rafting en el río Cangrejal.</p></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" class="card-img-top" alt="Café" />
+            <div class="card-body"><span class="badge text-bg-warning mb-2">Cultura</span><h5 class="card-title">Ruta del café</h5><p class="card-text">Visita fincas en Marcala y Santa Bárbara y prueba café de altura.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4"><a href="destinos.html" class="btn btn-outline-primary">Ver todos los destinos</a></div>
+    </section>
+
+    <!-- Carrusel de opiniones -->
+    <section class="bg-light py-5">
+      <div class="container" style="max-width:720px">
+        <h2 class="text-center mb-4">Lo que dicen los viajeros</h2>
+        <div id="opiniones" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner text-center px-5">
+            <div class="carousel-item active"><p class="fs-5 fst-italic">"Copán fue lo mejor del viaje. Las estelas son impresionantes."</p><strong>María, Tegucigalpa</strong></div>
+            <div class="carousel-item"><p class="fs-5 fst-italic">"Bucear en Útila superó mis expectativas, el agua es increíble."</p><strong>Carlos, San Pedro Sula</strong></div>
+            <div class="carousel-item"><p class="fs-5 fst-italic">"Gracias y sus aguas termales: perfecto para descansar."</p><strong>Ana, La Ceiba</strong></div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#opiniones" data-bs-slide="prev"><span class="carousel-control-prev-icon bg-dark rounded-circle p-3"></span><span class="visually-hidden">Anterior</span></button>
+          <button class="carousel-control-next" type="button" data-bs-target="#opiniones" data-bs-slide="next"><span class="carousel-control-next-icon bg-dark rounded-circle p-3"></span><span class="visually-hidden">Siguiente</span></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preguntas frecuentes -->
+    <section class="container my-5" style="max-width:800px">
+      <h2 class="text-center mb-4">Preguntas frecuentes</h2>
+      <div class="accordion" id="faq">
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">¿Cuál es la mejor época para viajar?</button></h3>
+          <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faq"><div class="accordion-body">De noviembre a abril, en temporada seca, es ideal para casi todo el país.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">¿Es seguro viajar?</button></h3>
+          <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Los destinos turísticos son visitados a diario; con precauciones normales y guías locales, la experiencia es muy segura.</div></div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">¿Qué debo llevar?</button></h3>
+          <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faq"><div class="accordion-body">Ropa ligera, protector solar, repelente y un impermeable para zonas de montaña.</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Llamado a la accion -->
+    <section class="bg-dark text-white text-center py-5">
+      <div class="container">
+        <h2>¿Listo para tu próxima aventura?</h2>
+        <p class="lead">Escríbenos y armamos tu itinerario.</p>
+        <a href="contacto.html" class="btn btn-warning btn-lg">Contáctanos</a>
+      </div>
+    </section>
   </main>
 
   <footer class="bg-dark text-white-50 text-center py-4">
