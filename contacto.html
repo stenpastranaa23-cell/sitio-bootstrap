@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>Contacto | Explora Honduras</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class="bi bi-compass"></i> Explora Honduras</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5" style="max-width:640px">
+    <h1 class="mb-4">Contacto</h1>
+    <div id="exito" class="alert alert-success d-none">¡Mensaje enviado! Gracias por escribirnos.</div>
+    <form class="needs-validation" novalidate>
+      <div class="mb-3">
+        <label class="form-label" for="nombre">Nombre</label>
+        <input class="form-control" id="nombre" required />
+        <div class="invalid-feedback">Ingresa tu nombre.</div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="correo">Correo</label>
+        <input type="email" class="form-control" id="correo" required />
+        <div class="invalid-feedback">Ingresa un correo válido.</div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="msg">Mensaje</label>
+        <textarea class="form-control" id="msg" rows="4" required></textarea>
+        <div class="invalid-feedback">Escribe un mensaje.</div>
+      </div>
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer class="bg-dark text-white-50 text-center py-4 mt-5">
+    <div class="container">&copy; 2026 Explora Honduras &middot; Hecho con Bootstrap 5</div>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
